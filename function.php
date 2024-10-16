@@ -8,7 +8,6 @@ function logoutSession()
     unset($_SESSION["loggedInUser"]);
 }
 
-require 'dbcon.php';
 
 // Input field validation
 function validateInputData($inputData)
