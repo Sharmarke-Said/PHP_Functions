@@ -281,3 +281,4 @@ function deleteFile($filePath)
         unlink("../$filePath");
     }
 }
+?>
